@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ABDA65CC20FA4331009B65C9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA65CB20FA4331009B65C9 /* AppDelegate.swift */; };
+		ABDA65CE20FA4331009B65C9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA65CD20FA4331009B65C9 /* ViewController.swift */; };
+		ABDA65D120FA4331009B65C9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA65CF20FA4331009B65C9 /* Main.storyboard */; };
+		ABDA65D320FA4333009B65C9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABDA65D220FA4333009B65C9 /* Assets.xcassets */; };
+		ABDA65D620FA4333009B65C9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABDA65D420FA4333009B65C9 /* LaunchScreen.storyboard */; };
+		ABDA65E120FA4333009B65C9 /* HymnalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA65E020FA4333009B65C9 /* HymnalTests.swift */; };
+		ABDA65EC20FA4333009B65C9 /* HymnalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABDA65EB20FA4333009B65C9 /* HymnalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		ABDA65DD20FA4333009B65C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDA65C020FA4331009B65C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDA65C720FA4331009B65C9;
+			remoteInfo = Hymnal;
+		};
+		ABDA65E820FA4333009B65C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ABDA65C020FA4331009B65C9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = ABDA65C720FA4331009B65C9;
+			remoteInfo = Hymnal;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		ABDA65C820FA4331009B65C9 /* Hymnal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hymnal.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA65CB20FA4331009B65C9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		ABDA65CD20FA4331009B65C9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		ABDA65D020FA4331009B65C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABDA65D220FA4333009B65C9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABDA65D520FA4333009B65C9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABDA65D720FA4333009B65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA65DC20FA4333009B65C9 /* HymnalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA65E020FA4333009B65C9 /* HymnalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnalTests.swift; sourceTree = "<group>"; };
+		ABDA65E220FA4333009B65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABDA65E720FA4333009B65C9 /* HymnalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HymnalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABDA65EB20FA4333009B65C9 /* HymnalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HymnalUITests.swift; sourceTree = "<group>"; };
+		ABDA65ED20FA4333009B65C9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABDA65C520FA4331009B65C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA65D920FA4333009B65C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA65E420FA4333009B65C9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ABDA65BF20FA4331009B65C9 = {
+			isa = PBXGroup;
+			children = (
+				ABDA65CA20FA4331009B65C9 /* Hymnal */,
+				ABDA65DF20FA4333009B65C9 /* HymnalTests */,
+				ABDA65EA20FA4333009B65C9 /* HymnalUITests */,
+				ABDA65C920FA4331009B65C9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ABDA65C920FA4331009B65C9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA65C820FA4331009B65C9 /* Hymnal.app */,
+				ABDA65DC20FA4333009B65C9 /* HymnalTests.xctest */,
+				ABDA65E720FA4333009B65C9 /* HymnalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABDA65CA20FA4331009B65C9 /* Hymnal */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA65CB20FA4331009B65C9 /* AppDelegate.swift */,
+				ABDA65CD20FA4331009B65C9 /* ViewController.swift */,
+				ABDA65CF20FA4331009B65C9 /* Main.storyboard */,
+				ABDA65D220FA4333009B65C9 /* Assets.xcassets */,
+				ABDA65D420FA4333009B65C9 /* LaunchScreen.storyboard */,
+				ABDA65D720FA4333009B65C9 /* Info.plist */,
+			);
+			path = Hymnal;
+			sourceTree = "<group>";
+		};
+		ABDA65DF20FA4333009B65C9 /* HymnalTests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA65E020FA4333009B65C9 /* HymnalTests.swift */,
+				ABDA65E220FA4333009B65C9 /* Info.plist */,
+			);
+			path = HymnalTests;
+			sourceTree = "<group>";
+		};
+		ABDA65EA20FA4333009B65C9 /* HymnalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				ABDA65EB20FA4333009B65C9 /* HymnalUITests.swift */,
+				ABDA65ED20FA4333009B65C9 /* Info.plist */,
+			);
+			path = HymnalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABDA65C720FA4331009B65C9 /* Hymnal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA65F020FA4333009B65C9 /* Build configuration list for PBXNativeTarget "Hymnal" */;
+			buildPhases = (
+				ABDA65C420FA4331009B65C9 /* Sources */,
+				ABDA65C520FA4331009B65C9 /* Frameworks */,
+				ABDA65C620FA4331009B65C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hymnal;
+			productName = Hymnal;
+			productReference = ABDA65C820FA4331009B65C9 /* Hymnal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		ABDA65DB20FA4333009B65C9 /* HymnalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA65F320FA4333009B65C9 /* Build configuration list for PBXNativeTarget "HymnalTests" */;
+			buildPhases = (
+				ABDA65D820FA4333009B65C9 /* Sources */,
+				ABDA65D920FA4333009B65C9 /* Frameworks */,
+				ABDA65DA20FA4333009B65C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDA65DE20FA4333009B65C9 /* PBXTargetDependency */,
+			);
+			name = HymnalTests;
+			productName = HymnalTests;
+			productReference = ABDA65DC20FA4333009B65C9 /* HymnalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		ABDA65E620FA4333009B65C9 /* HymnalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABDA65F620FA4333009B65C9 /* Build configuration list for PBXNativeTarget "HymnalUITests" */;
+			buildPhases = (
+				ABDA65E320FA4333009B65C9 /* Sources */,
+				ABDA65E420FA4333009B65C9 /* Frameworks */,
+				ABDA65E520FA4333009B65C9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				ABDA65E920FA4333009B65C9 /* PBXTargetDependency */,
+			);
+			name = HymnalUITests;
+			productName = HymnalUITests;
+			productReference = ABDA65E720FA4333009B65C9 /* HymnalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABDA65C020FA4331009B65C9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = ChiefCornerstoneMinistry;
+				TargetAttributes = {
+					ABDA65C720FA4331009B65C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					ABDA65DB20FA4333009B65C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ABDA65C720FA4331009B65C9;
+					};
+					ABDA65E620FA4333009B65C9 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = ABDA65C720FA4331009B65C9;
+					};
+				};
+			};
+			buildConfigurationList = ABDA65C320FA4331009B65C9 /* Build configuration list for PBXProject "Hymnal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABDA65BF20FA4331009B65C9;
+			productRefGroup = ABDA65C920FA4331009B65C9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABDA65C720FA4331009B65C9 /* Hymnal */,
+				ABDA65DB20FA4333009B65C9 /* HymnalTests */,
+				ABDA65E620FA4333009B65C9 /* HymnalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABDA65C620FA4331009B65C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA65D620FA4333009B65C9 /* LaunchScreen.storyboard in Resources */,
+				ABDA65D320FA4333009B65C9 /* Assets.xcassets in Resources */,
+				ABDA65D120FA4331009B65C9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA65DA20FA4333009B65C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA65E520FA4333009B65C9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABDA65C420FA4331009B65C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA65CE20FA4331009B65C9 /* ViewController.swift in Sources */,
+				ABDA65CC20FA4331009B65C9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA65D820FA4333009B65C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA65E120FA4333009B65C9 /* HymnalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ABDA65E320FA4333009B65C9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABDA65EC20FA4333009B65C9 /* HymnalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		ABDA65DE20FA4333009B65C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDA65C720FA4331009B65C9 /* Hymnal */;
+			targetProxy = ABDA65DD20FA4333009B65C9 /* PBXContainerItemProxy */;
+		};
+		ABDA65E920FA4333009B65C9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = ABDA65C720FA4331009B65C9 /* Hymnal */;
+			targetProxy = ABDA65E820FA4333009B65C9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		ABDA65CF20FA4331009B65C9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDA65D020FA4331009B65C9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABDA65D420FA4333009B65C9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABDA65D520FA4333009B65C9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABDA65EE20FA4333009B65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		ABDA65EF20FA4333009B65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABDA65F120FA4333009B65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR8VN6USQF;
+				INFOPLIST_FILE = Hymnal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChiefCornerstoneMinistry.Hymnal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABDA65F220FA4333009B65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR8VN6USQF;
+				INFOPLIST_FILE = Hymnal/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChiefCornerstoneMinistry.Hymnal;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		ABDA65F420FA4333009B65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR8VN6USQF;
+				INFOPLIST_FILE = HymnalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChiefCornerstoneMinistry.HymnalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hymnal.app/Hymnal";
+			};
+			name = Debug;
+		};
+		ABDA65F520FA4333009B65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR8VN6USQF;
+				INFOPLIST_FILE = HymnalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChiefCornerstoneMinistry.HymnalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hymnal.app/Hymnal";
+			};
+			name = Release;
+		};
+		ABDA65F720FA4333009B65C9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR8VN6USQF;
+				INFOPLIST_FILE = HymnalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChiefCornerstoneMinistry.HymnalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hymnal;
+			};
+			name = Debug;
+		};
+		ABDA65F820FA4333009B65C9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = QR8VN6USQF;
+				INFOPLIST_FILE = HymnalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ChiefCornerstoneMinistry.HymnalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Hymnal;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABDA65C320FA4331009B65C9 /* Build configuration list for PBXProject "Hymnal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA65EE20FA4333009B65C9 /* Debug */,
+				ABDA65EF20FA4333009B65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDA65F020FA4333009B65C9 /* Build configuration list for PBXNativeTarget "Hymnal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA65F120FA4333009B65C9 /* Debug */,
+				ABDA65F220FA4333009B65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDA65F320FA4333009B65C9 /* Build configuration list for PBXNativeTarget "HymnalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA65F420FA4333009B65C9 /* Debug */,
+				ABDA65F520FA4333009B65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABDA65F620FA4333009B65C9 /* Build configuration list for PBXNativeTarget "HymnalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABDA65F720FA4333009B65C9 /* Debug */,
+				ABDA65F820FA4333009B65C9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABDA65C020FA4331009B65C9 /* Project object */;
+}
