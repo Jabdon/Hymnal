@@ -97,6 +97,10 @@
 		ABDA65CA20FA4331009B65C9 /* Hymnal */ = {
 			isa = PBXGroup;
 			children = (
+				ABDA65FC21027CAF009B65C9 /* Clients */,
+				ABDA65FB20FA4377009B65C9 /* HelpFunction */,
+				ABDA65FA20FA4364009B65C9 /* Shared */,
+				ABDA65F920FA4351009B65C9 /* Screens */,
 				ABDA65CB20FA4331009B65C9 /* AppDelegate.swift */,
 				ABDA65CD20FA4331009B65C9 /* ViewController.swift */,
 				ABDA65CF20FA4331009B65C9 /* Main.storyboard */,
@@ -123,6 +127,34 @@
 				ABDA65ED20FA4333009B65C9 /* Info.plist */,
 			);
 			path = HymnalUITests;
+			sourceTree = "<group>";
+		};
+		ABDA65F920FA4351009B65C9 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		ABDA65FA20FA4364009B65C9 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		ABDA65FB20FA4377009B65C9 /* HelpFunction */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = HelpFunction;
+			sourceTree = "<group>";
+		};
+		ABDA65FC21027CAF009B65C9 /* Clients */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Clients;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
